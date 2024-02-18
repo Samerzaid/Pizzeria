@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(42, 24, 110);
+    background-image: url('Background.TastyPizza.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(211, 20, 20, 0.5);
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+nav {
+    background-color: rgb(10, 1, 1);
+    padding: 10px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    background-color: rgba(237, 17, 17, 0.5);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-nav {
+    background-color: #f20808;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.nav-link:hover {
+    border-bottom: 2px solid rgb(160, 244, 16);
+}
+

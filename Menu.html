@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Menu.css">
+   
+    <title>Tasty Pizza Menu</title>
+    
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a href="#" class="navbar-brand mb-0 h1"><img src="Pizza logo.avif" alt="PIZZA" width="50" height="50" /> TastyPizza</a>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+            arial-controls="navbarNav" arial-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="Home.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="Menu.html" class="nav-link active">Menu</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="Contact.html" class="nav-link active">About us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+   
+
+    <header>
+        <h1> Tasty Pizza</h1>
+        <nav>
+            <ul>
+                <li class="nav-link"><a href="#specials">Specials</a></li>
+                <li class="nav-link"><a href="#Kebab">Kebab</a></li>
+                <li class="nav-link"><a href="#Pepperoni">Meat Lovers</a></li>
+                <li class="nav-link"><a href="#Chicken">Chicken</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="specials" class="menu-section">
+        <h2>Specials</h2>
+        <div class="menu-item" data-name="Margherita Pizza" data-price="100.00" data-rating="5.0" data-size="Large">
+            <img src="Margherita.jpeg" alt="Margherita Pizza">
+            <h3>Margherita Pizza</h3>
+            <p>Tomato sauce, fresh mozzarella, basil.</p>
+            <p class="price">100.00 kr</p>
+            <button class="add-to-cart" onclick="addToCart(this)">Add to Cart</button>
+            <button class="show-details" onclick="showDetails(this)">Show Details</button>
+            
+        </div>
+    </section>
+
+    <section id="Kebab" class="menu-section">
+        <h2>Kebab</h2>
+        <div class="menu-item" data-name="Kebab Pizza" data-price="130.00" data-rating="4.2" data-size="Small">
+            <img src="Kebab.jpeg" alt="Kebab Pizza">
+            <h3>Kebab Pizza</h3>
+            <p>Tomato sauce, fresh mozzarella, basil.</p>
+            <p class="price">130.00 kr</p>
+            <button class="add-to-cart" onclick="addToCart(this)">Add to Cart</button>
+             <button class="show-details" onclick="showDetails(this)">Show Details</button>
+
+        </div>
+    </section>
+
+    <section id="Pepperoni" class="menu-section">
+        <h2>Pepperoni</h2>
+        <div class="menu-item" data-name="Pepperoni Pizza" data-price="120.00" data-rating="4.8" data-size="Medium">
+            <img src="Pepperoni.jpeg" alt="Pepperoni Pizza">
+            <h3>Pepperoni Pizza</h3>
+            <p>Tomato sauce, fresh mozzarella, basil.</p>
+            <p class="price">120.00 kr</p>
+            <button class="add-to-cart" onclick="addToCart(this)">Add to Cart</button>
+            <button class="show-details" onclick="showDetails(this)">Show Details</button>
+        </div>
+    </section>
+
+    <section id="Chicken" class="menu-section">
+        <h2>BBQ Chicken</h2>
+        <div class="menu-item" data-name="BBQ Chicken Pizza" data-price="115.00 kr" data-rating="4.5" data-size="Large">
+            <img src="BBQ Chicken.jpeg" alt="BBQ Chicken Pizza">
+            <h3>Margherita Pizza</h3>
+            <p>Tomato sauce, fresh mozzarella, basil.</p>
+            <p class="price">115.00 kr</p>
+            <button class="add-to-cart" onclick="addToCart(this)">Add to Cart</button>
+            <button class="show-details" onclick="showDetails(this)">Show Details</button>
+        </div>
+    </section>  
+        
+    </div>
+
+   <section>
+    <div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalContent"></div>
+    </div>
+</section>
+
+
+    <section id="cart" class="menu-section">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="cart-total">0.00 </span></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tasty Pizza</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

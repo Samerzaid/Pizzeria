@@ -1,0 +1,45 @@
+.nav-link:hover{
+    border-bottom: 2px solid rgb(104, 225, 16);
+}
+
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0; 
+      background-image: url('Background.TastyPizza.avif');
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .container{
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+        color: brown;
+        font-size: x-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+ .navbar-brand{
+    background-color: rgb(216, 13, 13);
+ }
+ 
+#fetchDataButton{
+        padding: 20px;
+        font-size: x-large;
+        color: rgb(48, 7, 141);
+}
+
+ #dataList{
+    max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: rgb(48, 7, 141);
+        font-size: x-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
